@@ -57,7 +57,7 @@ export default function AboutConference() {
           <div>
 
             <p className="font-semibold uppercase tracking-[0.35em] text-[#00629B]">
-              ABOUT ICFCISET 2027
+              ABOUT ICFCINT 2027
             </p>
 
             <h2 className="mt-5 text-5xl font-black leading-tight">
