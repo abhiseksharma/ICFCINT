@@ -1,28 +1,45 @@
 import Link from "next/link";
-import TrackCard from "@/components/sections/track-card";
+// import TrackCard from "@/components/sections/track-card";
+
 import {
   Brain,
-  Cloud,
   Cpu,
+  Cloud,
   ShieldCheck,
-  BookOpen,
-  FileText,
-  ArrowRight,
-  CheckCircle2,
+  Sparkles,
 } from "lucide-react";
+
+const iconMap = {
+  brain: Brain,
+  cpu: Cpu,
+  cloud: Cloud,
+  shield: ShieldCheck,
+  sparkles: Sparkles,
+};
 
 import Container from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 
 
+// type Track = {
+//   id: number;
+//   icon: "brain" | "cpu" | "cloud" | "shield" | "sparkles";
+//   title: string;
+//   chair: string;
+//   description: string;
+//   topics: string[];
+// };
 
 
+import TrackCard, {
+  type TrackCardProps,
+} from "@/components/sections/track-card";
 
 
-const tracks = [
+const tracks: TrackCardProps[] = [
   {
     id: 1,
-    icon: "Brain",
+    icon: "brain",
 
     title:
       "Artificial Intelligence, Machine Learning & Data Science",
@@ -49,7 +66,7 @@ const tracks = [
   {
     id: 2,
 
-    icon: "Cpu",
+    icon: "cpu",
 
     title:
       "Internet of Things (IoT), Smart Systems & Embedded Technologies",
@@ -74,7 +91,7 @@ const tracks = [
   {
   id: 3,
 
-  icon: "Cloud",
+  icon: "cloud",
 
   title:
     "Cloud Computing, Distributed Systems & Next-Generation Networks",
@@ -96,7 +113,7 @@ const tracks = [
 {
   id: 4,
 
-  icon: "ShieldCheck",
+  icon: "shield",
 
   title:
     "Cybersecurity, Blockchain & Digital Trust",
@@ -118,7 +135,7 @@ const tracks = [
 {
   id: 5,
 
-  icon: "Cpu",
+  icon: "cpu",
 
   title:
     "Emerging Technologies, Intelligent Systems & Interdisciplinary Applications",
@@ -214,6 +231,7 @@ export default function CallForPapersPage() {
           </h2>
 
           <div className="mt-20 space-y-8">
+
 
             {tracks.map((track) => (
 

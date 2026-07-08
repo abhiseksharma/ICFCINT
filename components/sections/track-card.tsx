@@ -3,24 +3,60 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
-type TrackCardProps = {
+// export type TrackIcon =
+//   | "brain"
+//   | "cpu"
+//   | "cloud"
+//   | "shield"
+//   | "sparkles";
+
+import {
+  Brain,
+  Cpu,
+  Cloud,
+  ShieldCheck,
+  Sparkles,
+} from "lucide-react";
+
+type TrackIcon = "brain" | "cpu" | "cloud" | "shield" | "sparkles";
+
+export type TrackCardProps = {
   id: number;
+  icon: TrackIcon;
   title: string;
   chair: string;
   description: string;
   topics: string[];
-  icon: "brain" | "cpu" | "cloud" | "shield" | "sparkles";
+};
+
+// type TrackCardProps = {
+//   id: number;
+//   icon: "brain" | "cpu" | "cloud" | "shield" | "sparkles";
+//   title: string;
+//   chair: string;
+//   description: string;
+//   topics: string[];
+// };
+
+const iconMap = {
+  brain: Brain,
+  cpu: Cpu,
+  cloud: Cloud,
+  shield: ShieldCheck,
+  sparkles: Sparkles,
 };
 
 export default function TrackCard({
   id,
+  icon,
   title,
   chair,
   description,
   topics,
-  icon: Icon,
 }: TrackCardProps) {
   const [open, setOpen] = useState(false);
+
+  const Icon = iconMap[icon];
 
   return (
     <div className="rounded-[30px] border bg-white shadow-sm overflow-hidden">
