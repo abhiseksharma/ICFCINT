@@ -14,9 +14,9 @@ export default function Footer() {
 
           <div>
 
-            <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#00629B] text-lg font-bold">
+            {/* <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#00629B] text-lg font-bold">
               IEEE
-            </div>
+            </div> */}
 
             <h3 className="text-xl font-bold">
               Conference Template
