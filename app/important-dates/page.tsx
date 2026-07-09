@@ -18,28 +18,28 @@ import PageHero from "@/components/sections/page-hero";
 const timeline = [
   {
     title: "Opening Submission Date",
-    date: "01 Jan 2027",
+    date: "21 Dec 2026",
     icon: CalendarClock,
     color: "bg-blue-100 text-blue-700",
     description: "Paper submission portal opens.",
   },
   {
     title: "Closing Submission Date",
-    date: "29 Jan 2027",
+    date: "20 Jan 2027",
     icon: FileText,
     color: "bg-red-100 text-red-700",
     description: "Last date for paper submission.",
   },
   {
     title: "Notification of Acceptance / Rejection",
-    date: "01 Mar 2027",
+    date: "26 Feb 2027",
     icon: FileCheck2,
     color: "bg-green-100 text-green-700",
     description: "Authors will receive review decisions.",
   },
   {
     title: "Final Paper Submission & Registration",
-    date: "31 Mar 2027",
+    date: "12 Mar 2027",
     icon: CreditCard,
     color: "bg-purple-100 text-purple-700",
     description: "Camera-ready paper submission and author registration deadline.",

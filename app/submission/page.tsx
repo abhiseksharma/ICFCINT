@@ -331,7 +331,7 @@ export default function SubmissionPage() {
     <div className="rounded-[30px] border border-blue-100 bg-blue-50 p-10 shadow-sm">
 
       <h2 className="text-3xl font-bold text-[#003B71]">
-        Acknowledgement
+        CMT ACKNOWLEDGMENT
       </h2>
 
       <p className="mt-6 leading-8 text-slate-700">
