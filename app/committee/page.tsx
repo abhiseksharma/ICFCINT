@@ -44,15 +44,15 @@ import Container from "@/components/ui/container";
 
   const generalChairs = [
     {
-      name: "Dr. Aydin Azizi",
-      designation: "Senior Lecturer",
-      organization: "Oxford Brookes University, United Kindom",
-      image: "/images/profile-placeholder.jpg",
-    },
-    {
       name: "Dr. Valentina Emilia Balas",
       designation: "Professor",
       organization: "Aurel Vlaicu University of Arad / Academy of Romanian Scientists, ROMANIA",
+      image: "/images/profile-placeholder.jpg",
+    },
+    {
+      name: "Dr. Aydin Azizi",
+      designation: "Senior Lecturer",
+      organization: "Oxford Brookes University, United Kindom",
       image: "/images/profile-placeholder.jpg",
     },
   ];
@@ -493,7 +493,7 @@ export default function CommitteePage() {
         members={technicalCommittee}
       />
 
-      <CommitteeTable
+      {/* <CommitteeTable
         title="Organizing Committee"
         members={organizingCommittee}
       />
@@ -501,7 +501,7 @@ export default function CommitteePage() {
       <CommitteeTable
         title="Advisory Committee"
         members={advisoryCommittee}
-      />
+      /> */}
     </>
   );
 }

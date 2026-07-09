@@ -328,7 +328,7 @@ export default function RegistrationPage() {
   </Container>
 </section>
 
-<section className="pb-24">
+{/* <section className="pb-24">
   <Container>
 
     <div className="text-center">
@@ -343,7 +343,7 @@ export default function RegistrationPage() {
     </div>
 
   </Container>
-</section>
+</section> */}
 
 
     </>
