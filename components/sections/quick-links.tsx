@@ -36,12 +36,12 @@ const links = [
     href: "/registration",
     icon: CreditCard,
   },
-  {
-    title: "Venue",
-    description: "Conference venue",
-    href: "/venue",
-    icon: MapPin,
-  },
+  // {
+  //   title: "Venue",
+  //   description: "Conference venue",
+  //   href: "/venue",
+  //   icon: MapPin,
+  // },
 ];
 
 export default function QuickLinks() {
@@ -49,7 +49,7 @@ export default function QuickLinks() {
     <section className="relative z-30 -mt-10 mb-24">
       <Container>
 
-        <div className="grid overflow-hidden rounded-[32px] border bg-white shadow-2xl md:grid-cols-2 xl:grid-cols-5">
+        <div className="grid overflow-hidden rounded-[32px] border bg-white shadow-2xl md:grid-cols-2 xl:grid-cols-4">
 
           {links.map((item) => {
 

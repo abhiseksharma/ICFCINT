@@ -51,12 +51,19 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
             <Image
               src="/images/conference-logo.jpeg"
               alt="ICFCINT"
-              width={48}
-              height={48}
-              className="rounded"
+              width={120}
+              height={120}
+              // className="rounded"
             />
 
-            <div className="leading-tight">
+            <Image
+                  src="/images/institute-logo.png"
+                  alt="Institute"
+                  width={120}
+                  height={120}
+              />
+
+            {/* <div className="leading-tight">
               <div
                 className={`text-2xl font-bold transition-colors ${
                   scrolled ? "text-slate-900" : "text-white"
@@ -64,7 +71,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
               >
                 ICFCINT 2027
               </div>
-            </div>
+            </div> */}
           </Link>
 
           {/* Desktop Navigation */}

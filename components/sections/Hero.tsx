@@ -5,7 +5,7 @@ import { CalendarDays, MapPin } from "lucide-react";
 import Container from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 
-export default function Hero() {
+export default function Hero() { 
   return (
     <section className="relative h-[88vh] min-h-[650px] overflow-hidden">
 
@@ -30,24 +30,24 @@ export default function Hero() {
       <Container>
 
         <div className="relative z-10 flex h-[88vh] max-w-3xl flex-col justify-center pt-24 text-white">
-          <div className="mb-10 inline-flex items-center rounded-full bg-white/10 px-6 py-3 backdrop-blur-md">
+          {/* <div className="mb-10 flex w-full items-center rounded-2xl bg-white/10 px-8 py-5 backdrop-blur-md">
 
               <Image
                   src="/images/institute-logo.png"
                   alt="Institute"
-                  width={42}
-                  height={42}
+                  width={120}
+                  height={120}
               />
 
               <div className="mx-4 h-8 w-px bg-white/20" />
 
-              <span className="text-sm tracking-wide">
+              <span className="text-sm tracking-wide text-center">
 
-                  Hosted by IILM University Gurugram
+                  Hosted by School of Computer Science and Engineering, IILM University Gurugram, Haryana
 
               </span>
 
-          </div>
+          </div> */}
 
             {/* Small Heading */}
 
@@ -65,7 +65,7 @@ export default function Hero() {
 
                 <br />
 
-                Intelligence System
+                Intelligence Systems
 
                 <br />
 
@@ -97,7 +97,7 @@ export default function Hero() {
 
                     <MapPin size={22} />
 
-                    <span>IILM University Gurugram, Haryana</span>
+                    <span>School of Computer Science and Engineering, IILM University Gurugram, Haryana</span>
 
                 </div>
 {/* 

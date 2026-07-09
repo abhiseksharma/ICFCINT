@@ -201,7 +201,7 @@ export default function CallForPapersPage() {
 
             <p className="mt-10 text-lg leading-9 text-slate-600">
 
-                ICFCISET 2027 invites researchers, academicians,
+                ICFCINT 2027 invites researchers, academicians,
                 industry professionals and students to submit
                 original, unpublished research papers.
 
