@@ -64,7 +64,7 @@ export default function ContactPage() {
                   </td>
 
                   <td className="p-6">
-                    +91 XXXXX XXXXX
+                    +91 97591 11170
                   </td>
                 </tr>
 
@@ -83,7 +83,7 @@ export default function ContactPage() {
                   </td>
 
                   <td className="p-6">
-                    conference@email.com
+                    icfcint@iilm.edu
                   </td>
                 </tr>
 
@@ -104,9 +104,7 @@ export default function ContactPage() {
                   <td className="p-6 leading-8">
                     School of Computer Science & Engineering
                     <br />
-                    IILM University
-                    <br />
-                    Gurugram, Haryana
+                    IILM University Gurugram, Haryana
                     <br />
                     India
                   </td>

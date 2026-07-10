@@ -71,7 +71,7 @@ export default function AboutConference() {
               provide a premier international platform for academicians, researchers, scientists, industry 
               professionals, innovators and students to share their cutting edge research, emerging ideas 
               and practical experiences in the areas of innovative computing, science, engineering, 
-              artificial intelligence and next generation technologies. The ICFCISET 2027 aims at the 
+              artificial intelligence and next generation technologies. The ICFCINT 2027 aims at the 
               development of transformative computational methodologies, intelligent systems, data-driven 
               technologies, and interdisciplinary innovations addressing real-world challenges and 
               contributing to sustainable technological advancement.
@@ -81,7 +81,7 @@ export default function AboutConference() {
               such as Artificial Intelligence, Machine Learning, Data Science, Cybersecurity, Internet of 
               Things (IoT), Cloud and Edge Computing, Big Data Analytics, Robotics, Cyber-Physical Systems,
                Smart Computing, Quantum Technologies, Applied Mathematics, Engineering Innovations and 
-               Digital Transformation. ICFCISET 2027 will focus on promoting interdisciplinary research, 
+               Digital Transformation. ICFCINT 2027 will focus on promoting interdisciplinary research, 
                strengthening global academic and industrial partnerships, and inspiring innovative 
                solutions that will shape the future of science, computing and next-generation technologies 
                through keynote lectures, technical sessions, panel discussions, and networking 

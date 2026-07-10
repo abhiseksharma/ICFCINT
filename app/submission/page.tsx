@@ -24,14 +24,14 @@ const templates = [
   {
     title: "Microsoft Word Template",
     description:
-      "Download the IEEE Conference Microsoft Word template for preparing your manuscript.",
+      "Download the Conference Microsoft Word template for preparing your manuscript.",
     icon: FileText,
     link: "https://docs.google.com/document/d/1e5i9ng7X4BB8I63ps6G4lxpM7vaaPOIM/edit?usp=sharing&ouid=117917574359970762584&rtpof=true&sd=true",
   },
   {
     title: "LaTeX Template",
     description:
-      "Download the IEEE Conference LaTeX template for preparing your manuscript.",
+      "Download the Conference LaTeX template for preparing your manuscript.",
     icon: FileCode2,
     link: "https://drive.google.com/file/d/13iwZX6OR-PjrmpTurPFzhcvJ5pI8PsiB/view?usp=sharing",
   },
@@ -94,7 +94,7 @@ export default function SubmissionPage() {
 
                 <Button className="mt-8 bg-[#00629B]">
 
-                    Submit via Microsoft CMT
+                    Submit via Microsoft CMT (To be announced soon)
 
                     <ExternalLink className="ml-2 h-4 w-4"/>
 

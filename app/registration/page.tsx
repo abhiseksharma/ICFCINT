@@ -13,37 +13,60 @@ import {
 const indianFees = [
   {
     category: "Research Scholars / UG / PG Students",
-    nonIEEE: "₹ 7000",
-    ieee: "₹ 5500",
+    // nonIEEE: "₹ 7000",
+    // ieee: "₹ 5500",
+    amount: "₹ 7500",
+  },
+  {
+    category: "Academics",
+    // nonIEEE: "₹ 1500",
+    // ieee: "₹ 1000",
+    amount: "₹ 8500",
   },
   {
     category: "Delegates from Industry / Academia",
-    nonIEEE: "₹ 8500",
-    ieee: "₹ 7000",
-  },
-  {
-    category: "Accompanying Person",
-    nonIEEE: "₹ 1500",
-    ieee: "₹ 1000",
+    // nonIEEE: "₹ 8500",
+    // ieee: "₹ 7000",
+    amount: "₹ 9000",
   },
 ];
 
 const foreignFees = [
+
   {
     category: "Research Scholars / UG / PG Students",
-    nonIEEE: "$ 200",
-    ieee: "$ 150",
+    // nonIEEE: "$ 200",
+    // ieee: "$ 150",
+    amount: "$ 200",
+  },
+  {
+    category: "Academics",
+    // nonIEEE: "$ 250",
+    // ieee: "$ 200",
+    amount: "$ 250",
   },
   {
     category: "Delegates from Industry / Academia",
-    nonIEEE: "$ 250",
-    ieee: "$ 200",
+    // nonIEEE: "$ 250",
+    // ieee: "$ 200",
+    amount: "$ 300",
   },
-  {
-    category: "Accompanying Person",
-    nonIEEE: "$ 125",
-    ieee: "$ 100",
-  },
+  
+  // {
+  //   category: "Research Scholars / UG / PG Students",
+  //   // nonIEEE: "$ 200",
+  //   // ieee: "$ 150",
+  // },
+  // {
+  //   category: "Delegates from Industry / Academia",
+  //   nonIEEE: "$ 250",
+  //   ieee: "$ 200",
+  // },
+  // {
+  //   category: "Accompanying Person",
+  //   nonIEEE: "$ 125",
+  //   ieee: "$ 100",
+  // },
 ];
 
 const paymentDetails = [
@@ -133,13 +156,19 @@ export default function RegistrationPage() {
               Category
             </th>
 
-            <th className="border p-4 text-center">
+            {/* <th className="border p-4 text-center">
               IEEE Member
             </th>
 
             <th className="border p-4 text-center">
               Non IEEE Member
+            </th> */}
+
+          
+            <th className="border p-4 text-center">
+              Amount
             </th>
+
 
           </tr>
 
@@ -158,13 +187,18 @@ export default function RegistrationPage() {
                 {item.category}
               </td>
 
-              <td className="border p-4 text-center font-semibold">
+              {/* <td className="border p-4 text-center font-semibold">
                 {item.ieee}
               </td>
 
               <td className="border p-4 text-center font-semibold">
                 {item.nonIEEE}
-              </td>
+              </td> */}
+
+              <th className="border p-4 text-center">
+                {item.amount}
+              </th>
+
 
             </tr>
 
@@ -197,13 +231,17 @@ export default function RegistrationPage() {
             <th className="border p-4 text-left">
               Category
             </th>
-
+{/* 
             <th className="border p-4 text-center">
               IEEE Member
             </th>
 
             <th className="border p-4 text-center">
               Non IEEE Member
+            </th> */}
+
+            <th className="border p-4 text-center">
+              Amount
             </th>
 
           </tr>
@@ -223,13 +261,19 @@ export default function RegistrationPage() {
                 {item.category}
               </td>
 
-              <td className="border p-4 text-center font-semibold">
+              {/* <td className="border p-4 text-center font-semibold">
                 {item.ieee}
               </td>
 
               <td className="border p-4 text-center font-semibold">
                 {item.nonIEEE}
-              </td>
+              </td> */}
+
+              <th className="border p-4 text-center">
+                {item.amount}
+              </th>
+              
+
 
             </tr>
 
@@ -313,9 +357,9 @@ export default function RegistrationPage() {
           Registration is mandatory for paper presentation.
         </li>
 
-        <li>
+        {/* <li>
           Only registered and presented papers will be considered for IEEE Xplore submission.
-        </li>
+        </li> */}
 
         <li>
           Please preserve the payment receipt for future reference.
