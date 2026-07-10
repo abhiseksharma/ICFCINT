@@ -41,7 +41,7 @@ export default function AboutUniversity() {
 
             <h2 className="mt-5 text-5xl font-black">
 
-              About University
+              About IILM
 
             </h2>
 
