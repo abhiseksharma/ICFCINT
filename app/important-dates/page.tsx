@@ -76,7 +76,7 @@ export default function ImportantDatesPage() {
         </Container>
       </section>
 
-      {/* Notice */}
+      {/* Notice
 
       <section className="py-16 bg-slate-50">
 
@@ -104,7 +104,7 @@ export default function ImportantDatesPage() {
 
         </Container>
 
-      </section>
+      </section> */}
 
       {/* Timeline */}
 
