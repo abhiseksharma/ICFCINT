@@ -19,13 +19,13 @@ export default function Footer() {
             </div> */}
 
             <h3 className="text-xl font-bold">
-              Conference Template
+              ICFCINT 2027
             </h3>
 
-            <p className="mt-4 text-slate-400">
+            {/* <p className="mt-4 text-slate-400">
               Modern conference website built with
               Next.js and Tailwind CSS.
-            </p>
+            </p> */}
 
           </div>
 
@@ -42,6 +42,12 @@ export default function Footer() {
               <li>
                 <Link href="/">
                   Home
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/important-dates">
+                  Important Dates
                 </Link>
               </li>
 
@@ -67,29 +73,29 @@ export default function Footer() {
 
           </div>
 
-          {/* Participants */}
+          {/* Conference Continue */}
 
           <div>
 
-            <h4 className="mb-5 font-semibold">
+            {/* <h4 className="mb-5 font-semibold">
               Participants
-            </h4>
+            </h4> */}
 
             <ul className="space-y-3 text-slate-400">
 
               <li>
-                <Link href="/venue">
-                  Venue
+                <Link href="/committee">
+                  Committee
                 </Link>
               </li>
 
               <li>
-                <Link href="/downloads">
-                  Downloads
+                <Link href="/submission">
+                  Submission
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link href="/gallery">
                   Gallery
                 </Link>
@@ -99,7 +105,7 @@ export default function Footer() {
                 <Link href="/faq">
                   FAQ
                 </Link>
-              </li>
+              </li> */}
 
             </ul>
 
@@ -114,11 +120,15 @@ export default function Footer() {
             </h4>
 
             <p className="text-slate-400">
-              conference@example.com
+              icfcint@iilm.edu
             </p>
 
             <p className="mt-3 text-slate-400">
-              Conference Secretariat
+              Dr. Manish Kumar
+            </p>
+
+            <p className="mt-3 text-slate-400">
+              +91 97591 11170
             </p>
 
           </div>
