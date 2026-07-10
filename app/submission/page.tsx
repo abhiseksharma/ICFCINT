@@ -78,6 +78,7 @@ export default function SubmissionPage() {
 
             <p className="mt-6 leading-8 text-slate-600">
 
+                Authors may submit unpublished and original work. 
                 All manuscripts must be submitted through the
                 Microsoft Conference Management Toolkit (CMT).
 
@@ -123,7 +124,7 @@ export default function SubmissionPage() {
             </h2>
 
             <p className="mx-auto mt-8 max-w-4xl text-lg leading-8 text-slate-600">
-                Authors are requested to prepare their manuscripts using the two Column format. 
+                Authors are requested to prepare their manuscripts using the two column format. 
                 Papers must strictly follow the prescribed formatting guidelines before submission 
                 through the conference management system.
             </p>

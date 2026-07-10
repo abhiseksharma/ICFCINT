@@ -76,13 +76,13 @@ export default function ProgramPage() {
             />
 
             <h2 className="mt-6 text-4xl font-bold">
-              Technical Program
+              Technical Program (To be announced)
             </h2>
 
-            <p className="mt-6 text-lg leading-8 text-slate-600">
+            {/* <p className="mt-6 text-lg leading-8 text-slate-600">
               Replace this section with a brief introduction to the conference
               program and schedule.
-            </p>
+            </p> */}
 
           </div>
 
@@ -91,7 +91,7 @@ export default function ProgramPage() {
 
       {/* Schedule */}
 
-      <section className="bg-slate-50 py-24">
+      {/* <section className="bg-slate-50 py-24">
 
         <Container>
 
@@ -144,11 +144,11 @@ export default function ProgramPage() {
 
         </Container>
 
-      </section>
+      </section> */}
 
       {/* Keynote */}
 
-      <section className="py-24">
+      {/* <section className="py-24">
 
         <Container>
 
@@ -171,11 +171,11 @@ export default function ProgramPage() {
 
         </Container>
 
-      </section>
+      </section> */}
 
       {/* Workshops */}
 
-      <section className="bg-slate-50 py-24">
+      {/* <section className="bg-slate-50 py-24">
 
         <Container>
 
@@ -219,11 +219,11 @@ export default function ProgramPage() {
 
         </Container>
 
-      </section>
+      </section> */}
 
       {/* Closing */}
 
-      <section className="py-24">
+      {/* <section className="py-24">
 
         <Container>
 
@@ -241,7 +241,7 @@ export default function ProgramPage() {
 
         </Container>
 
-      </section>
+      </section> */}
 
     </>
   );

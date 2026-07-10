@@ -72,20 +72,20 @@ const foreignFees = [
 const paymentDetails = [
   {
     field: "Account Name",
-    value: "HOD-CSE",
+    value: "-",
   },
   {
     field: "Account Number",
-    value: "7784344256",
+    value: "-",
   },
   {
     field: "Bank and Branch",
     value:
-      "Indian Bank, Hanumanthnagar Branch, Bengaluru - 560019",
+      "-",
   },
   {
     field: "IFSC Code",
-    value: "IDIB000B607",
+    value: "-",
   },
 ];
 

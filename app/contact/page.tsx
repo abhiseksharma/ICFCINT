@@ -83,7 +83,7 @@ export default function ContactPage() {
                   </td>
 
                   <td className="p-6">
-                    icfcint@iilm.edu
+                    icfcint2027@iilm.edu
                   </td>
                 </tr>
 

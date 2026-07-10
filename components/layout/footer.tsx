@@ -120,11 +120,11 @@ export default function Footer() {
             </h4>
 
             <p className="text-slate-400">
-              icfcint@iilm.edu
+              icfcint2027@iilm.edu
             </p>
 
             <p className="mt-3 text-slate-400">
-              Dr. Manish Kumar
+              Prof. Dr. Manish Kumar, School of Computer Science & Engineering, IILM University Gurugram, Haryana
             </p>
 
             <p className="mt-3 text-slate-400">

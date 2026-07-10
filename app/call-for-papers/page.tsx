@@ -19,7 +19,7 @@ const iconMap = {
 
 import Container from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
-
+import { FileText } from "lucide-react";
 
 // type Track = {
 //   id: number;
@@ -45,7 +45,7 @@ const tracks: TrackCardProps[] = [
       "Artificial Intelligence, Machine Learning & Data Science",
 
     chair:
-      "Dr. Amar Shukla, IILM University Gurugram",
+      "Dr. Amar Shukla, IILM University Gurugram, Haryana, Dr. Gagandeep, Professor, CEC- CGC Landran, Mohali",
 
     // society:
     //   "IEEE Computer Society / Computational Intelligence Society",
@@ -72,7 +72,7 @@ const tracks: TrackCardProps[] = [
       "Internet of Things (IoT), Smart Systems & Embedded Technologies",
 
     chair:
-      "Dr. Law Kumar Singh, IILM University Gurugram",
+      "Dr. Law Kumar Singh, IILM University Gurugram, Haryana",
 
     // society:
     //   "IEEE Internet of Things Society",
@@ -97,7 +97,7 @@ const tracks: TrackCardProps[] = [
     "Cloud Computing, Distributed Systems & Next-Generation Networks",
 
   chair:
-    "Dr. Shubham Mahajan, Amity University Haryana",
+    "Dr. Shubham Mahajan, Amity University, Haryana",
 
   description:
     "This track addresses scalable computing infrastructures and future communication technologies.",
@@ -119,7 +119,7 @@ const tracks: TrackCardProps[] = [
     "Cybersecurity, Blockchain & Digital Trust",
 
   chair:
-    "Dr. Umang Garg, IILM University Haryana",
+    "Dr. Umang Garg, IILM University Gurugram, Haryana",
 
   description:
     "This track highlights secure computing, privacy and decentralized technologies.",
@@ -203,7 +203,8 @@ export default function CallForPapersPage() {
 
                 ICFCINT 2027 invites researchers, academicians,
                 industry professionals and students to submit
-                original, unpublished research papers.
+                original, unpublished research papers. The submitted 
+                manuscripts must align with the themes and the tracks of the conference.
 
                 The conference provides an international forum
                 for exchanging innovative ideas, recent advances,
@@ -219,6 +220,55 @@ export default function CallForPapersPage() {
     </Container>
 
 </section>
+
+    <section className="py-24">
+
+    <Container>
+
+        <div className="mx-auto max-w-5xl text-center">
+
+            {/* <p className="font-semibold uppercase tracking-[0.35em] text-[#00629B]">
+
+                CALL FOR PAPERS
+
+            </p> */}
+
+            <h2 className="mt-5 text-4xl font-black">
+
+                Review Process, Publication Ethics and Malpractice Statement
+
+            </h2>
+
+            <p className="mt-10 text-lg leading-9 text-slate-600">
+
+                The Review Process and the Ethical Conduct regarding ICFCINT2027 
+                are mentioned in the provided file.
+
+            </p>
+
+            <div className="mt-10">
+        <Link
+          href="/files/review-and-ethics.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            size="lg"
+            className="bg-[#003B71] hover:bg-[#005B96]"
+          >
+            <FileText className="mr-2 h-5 w-5" />
+            View / Download Guidelines
+          </Button>
+        </Link>
+      </div>
+
+
+        </div>
+
+    </Container>
+
+    </section>
+
 
       {/* Tracks */}
 

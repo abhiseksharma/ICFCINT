@@ -83,7 +83,7 @@ import Container from "@/components/ui/container";
   const publicationChairs = [
     {
       name: "Dr. Manish Kumar",
-      designation: "Professor",
+      designation: "Professor, School of Computer Science and Engineering",
       organization: "IILM University Gurugram",
       image: "/images/profile-placeholder.jpg",
     },
@@ -92,7 +92,7 @@ import Container from "@/components/ui/container";
     const financeChairs = [
     {
       name: "Dr. Law Kumar",
-      designation: "Professor",
+      designation: "Professor, School of Computer Science and Engineering",
       organization: "IILM University Gurugram",
       image: "/images/profile-placeholder.jpg",
     },
@@ -101,7 +101,7 @@ import Container from "@/components/ui/container";
     const websiteChairs = [
     {
       name: "Dr. Abhisek Sharma",
-      designation: "Assistant Professor",
+      designation: "Assistant Professor, School of Computer Science and Engineering",
       organization: "IILM University Gurugram",
       image: "/images/profile-placeholder.jpg",
     },
@@ -113,60 +113,77 @@ const technicalCommittee = [
     designation: "Professor",
     organization: "The University of Melbourne, Australia",
   },
-  {
+    {
     name: "Dr. Jemal Hussein Abawajy",
     designation: "Professor",
     organization: "Deakin University, Australia",
   },
-    {
-    name: "Dr. Nguyen Ha Huy Cuong",
-    designation: "",
-    organization: "The University of Danang, Vietnam",
+  {
+    name: "Dr. Daniel Dasig Jr",
+    designation: "Professor",
+    organization: "De La Salle-College of Saint Benilde, Manila",
   },
     {
+    name: "Dr. Nguyen Ha Huy Cuong",
+    designation: "Professor",
+    organization: "The University of Danang, Vietnam",
+  },
+
+  {
+    name: "Prof. Surendra N. Rahamatkar",
+    designation: "Pro Vice Chancellor, Dean",
+    organization: "Avantika University (MIT Pune Group)",
+  },
+
+  {
     name: "Dr. Ahmed A. Elngar",
-    designation: "",
+    designation: "Professor",
     organization: "Beni-Suef University, Egypt",
   },
     {
     name: "Dr. Ivan Perl",
-    designation: "",
+    designation: "Associate Professor",
     organization: "ITMO University, Saint Petersburg, Russia",
   },
     {
     name: "Dr. Vishal Sharma",
-    designation: "",
-    organization: "oonchunhyang University, South Korea",
+    designation: "Reader",
+    organization: "Soonchunhyang University, South Korea",
   },
     {
     name: "Dr. Osama Mokhtar",
-    designation: "",
+    designation: "Professor",
     organization: "Obour Institutes, Cairo, Egypt",
   },
       {
     name: "Dr. Wei Cai",
-    designation: "",
+    designation: "Assistant Professor",
     organization: "The Chinese University of Hong Kong, Shenzhen, China",
   },
       {
     name: "Dr. Victor C.M. Leung",
-    designation: "",
+    designation: "Professor",
     organization: "The University of British Columbia, Canada",
   },
       {
     name: "Dr. Prihandoko",
-    designation: "",
-    organization: "Deputy Director, G. University, Indonesia",
+    designation: "Deputy Director",
+    organization: "Gunadarma University, Indonesia",
+  },
+  {
+    name: "Dr. Sanjay Pratap Singh Chauhan",
+    designation: "Professor, Computer Science & Engineering",
+    organization: "Greater Noida Institute of Technology",
   },
       {
     name: "Dr. Arvind Dhingra",
-    designation: "",
+    designation: "Associate Professor",
     organization: "GNDEC, Ludhiana",
   },
       {
     name: "Dr. Virender Rihani",
-    designation: "",
-    organization: "PEC, Chandigarh",
+    designation: "Professor",
+    organization: "Shoolini University",
   },
       {
     name: "Dr. Pramod Kumar",
@@ -175,64 +192,64 @@ const technicalCommittee = [
   },
       {
     name: "Dr. Bright Keswani",
-    designation: "",
+    designation: "Professor",
     organization: "Suresh Gyan Vihar University",
   },
       {
     name: "Dr. Vijay Luxmi",
-    designation: "",
+    designation: "Professor",
     organization: "Guru Kashi University, Bhatinda",
   },
-        {
+  {
     name: "Dr. R.R. Bhargava",
-    designation: "",
+    designation: "Professor",
     organization: "IIT, Roorkee",
   },
-        {
-    name: "Mr. Amit Sangroya",
-    designation: "",
-    organization: "TCS Innovations Lab, Noida",
-  },
-        {
+  //       {
+  //   name: "Mr. Amit Sangroya",
+  //   designation: "",
+  //   organization: "TCS Innovations Lab, Noida",
+  // },
+  {
     name: "Dr. Ashish Oberoi",
     designation: "",
     organization: "Lovely Professional University",
   },
-        {
+  {
     name: "Dr. Lalit Goyal",
     designation: "",
     organization: "BVCOE, New Delhi",
   },
-        {
+  {
     name: "Dr. Ashutosh Kumar Bhatt",
     designation: "",
     organization: "Uttarakhand Open University, Haldwani",
   },
-        {
+  {
     name: "Dr. Deepak Garg",
     designation: "Vice Chancellor",
     organization: "SR university, Telangana, India",
   },
-        {
+  {
     name: "Dr. Savita Gupta",
     designation: "",
     organization: "UIET, PU, Chandigarh",
   },
-        {
+  {
     name: "Dr. Naveen Aggarwal",
     designation: "",
     organization: "UIET, PU, Chandigarh",
   },
   {
     name: "Dr. Lakhwinder Kaur",
-    designation: "",
+    designation: "Professor",
     organization: "UCoE, PU, Patiala",
   },
-  {
-    name: "Dr. Umang Garg",
-    designation: "Associate Professor",
-    organization: "IILM University Gurugram",
-  },
+  // {
+  //   name: "Dr. Umang Garg",
+  //   designation: "Associate Professor",
+  //   organization: "IILM University Gurugram",
+  // },
   // {
   //   name: "Member Name",
   //   designation: "Designation",
@@ -242,6 +259,19 @@ const technicalCommittee = [
 
 
 const organizingCommittee = [
+  {
+    name: "Member Name",
+    designation: "Professor",
+    organization: "ABC University",
+  },
+  {
+    name: "Member Name",
+    designation: "Associate Professor",
+    organization: "XYZ University",
+  },
+];
+
+const reviewCommittee = [
   {
     name: "Member Name",
     designation: "Professor",
@@ -469,28 +499,33 @@ export default function CommitteePage() {
       />
 
       <CommitteeTable
-        title="Program Chairs"
+        title="Program Chair"
         members={programChairs}
       />
 
       <CommitteeTable
-        title="Publication Chairs"
+        title="Publication Chair"
         members={publicationChairs}
       />
 
       <CommitteeTable
-        title="Finance Chairs"
+        title="Finance Chair"
         members={financeChairs}
       />
 
       <CommitteeTable
-        title="Website Chairs"
+        title="Website Chair"
         members={websiteChairs}
       />
 
       <CommitteeTable
-        title="Technical Program Committee"
+        title="International and National Technical Program Committee"
         members={technicalCommittee}
+      />
+
+      <CommitteeTable
+        title="Review Committee"
+        members={reviewCommittee}
       />
 
       {/* <CommitteeTable
