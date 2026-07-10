@@ -72,20 +72,19 @@ const foreignFees = [
 const paymentDetails = [
   {
     field: "Account Name",
-    value: "-",
+    value: "IILM University",
   },
   {
     field: "Account Number",
-    value: "-",
+    value: "10058116447",
   },
   {
     field: "Bank and Branch",
-    value:
-      "-",
+    value: "IDFC FIRST Bank Gurgaon Golf Course Extension Road Branch, Unit No. 18-A, Ground Floor, Gurgaon - 122102",
   },
   {
     field: "IFSC Code",
-    value: "-",
+    value: "IDFCB0020132",
   },
 ];
 

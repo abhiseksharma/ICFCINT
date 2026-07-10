@@ -523,10 +523,10 @@ export default function CommitteePage() {
         members={technicalCommittee}
       />
 
-      <CommitteeTable
+      {/* <CommitteeTable
         title="Review Committee"
         members={reviewCommittee}
-      />
+      /> */}
 
       {/* <CommitteeTable
         title="Organizing Committee"
