@@ -89,13 +89,14 @@ export default function SubmissionPage() {
             </p>
 
             <Link
-                href="#"
+                href="https://cmt3.research.microsoft.com/ICFCINT2027"
+                target="_blank"
                 className="inline-block"
             >
 
                 <Button className="mt-8 bg-[#00629B]">
 
-                    Submit via Microsoft CMT (To be announced soon)
+                    Submit via Microsoft CMT
 
                     <ExternalLink className="ml-2 h-4 w-4"/>
 
