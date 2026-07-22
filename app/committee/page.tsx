@@ -123,6 +123,31 @@ const technicalCommittee = [
     designation: "Professor",
     organization: "De La Salle-College of Saint Benilde, Manila",
   },
+  {
+    name: "Dr. Arshi Naim",
+    designation: "Professor",
+    organization: "European Global Institute of Innovation and technology, Malta",
+  },
+  {
+    name: "Dr. Laxmi Shaw",
+    designation: "Adjunct Faculty",
+    organization: "College of Natural & App Science, University: Texas A& M -Victoria, USA",
+  },
+  {
+    name: "Dr. Vinayakumar Ravi",
+    designation: "Research Professor",
+    organization: "Center for Artificial intelligence, Prince Mohammad Bin Fahd University, Saudi Arabia ",
+  },
+  {
+    name: "Dr. Alvaro Rocha",
+    designation: "Professor",
+    organization: "ISEG, University of Lisbon, Portugal",
+  },
+  {
+    name: "Dr. Muhammad Attique Khan",
+    designation: "Research Professor",
+    organization: "University College, Computer Science, Korea University, South Korea",
+  },
     {
     name: "Dr. Nguyen Ha Huy Cuong",
     designation: "Professor",
@@ -260,14 +285,19 @@ const technicalCommittee = [
 
 const organizingCommittee = [
   {
-    name: "Member Name",
-    designation: "Professor",
-    organization: "ABC University",
+    name: "Dr. Sachin Kumar",
+    designation: "Associate Professor",
+    organization: "IILM University Gurugram",
   },
   {
-    name: "Member Name",
-    designation: "Associate Professor",
-    organization: "XYZ University",
+    name: "Abhishek Kumar Pandey",
+    designation: "Assistant Professor",
+    organization: "IILM University Gurugram",
+  },
+  {
+    name: "Dr. Navneet Redhu",
+    designation: "Assistant Professor",
+    organization: "IILM University Gurugram",
   },
 ];
 
@@ -528,10 +558,10 @@ export default function CommitteePage() {
         members={reviewCommittee}
       /> */}
 
-      {/* <CommitteeTable
+      <CommitteeTable
         title="Organizing Committee"
         members={organizingCommittee}
-      /> */}
+      />
 
       {/* <CommitteeTable
         title="Advisory Committee"
