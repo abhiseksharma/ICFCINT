@@ -237,7 +237,7 @@ const technicalCommittee = [
   // },
   {
     name: "Dr. Ashish Oberoi",
-    designation: "",
+    designation: "Professor & Associate Dean",
     organization: "Lovely Professional University",
   },
   {
@@ -247,7 +247,7 @@ const technicalCommittee = [
   },
   {
     name: "Dr. Ashutosh Kumar Bhatt",
-    designation: "",
+    designation: "Professor",
     organization: "Uttarakhand Open University, Haldwani",
   },
   {
@@ -257,12 +257,12 @@ const technicalCommittee = [
   },
   {
     name: "Dr. Savita Gupta",
-    designation: "",
+    designation: "Professor",
     organization: "UIET, PU, Chandigarh",
   },
   {
     name: "Dr. Naveen Aggarwal",
-    designation: "",
+    designation: "Associate Professor",
     organization: "UIET, PU, Chandigarh",
   },
   {
