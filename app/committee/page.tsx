@@ -159,7 +159,6 @@ const technicalCommittee = [
     designation: "Pro Vice Chancellor, Dean",
     organization: "Avantika University (MIT Pune Group)",
   },
-
   {
     name: "Dr. Ahmed A. Elngar",
     designation: "Professor",
@@ -230,11 +229,6 @@ const technicalCommittee = [
     designation: "Professor",
     organization: "IIT, Roorkee",
   },
-  //       {
-  //   name: "Mr. Amit Sangroya",
-  //   designation: "",
-  //   organization: "TCS Innovations Lab, Noida",
-  // },
   {
     name: "Dr. Ashish Oberoi",
     designation: "Professor & Associate Dean",
@@ -242,8 +236,13 @@ const technicalCommittee = [
   },
   {
     name: "Dr. Lalit Goyal",
-    designation: "",
+    designation: "Professor",
     organization: "BVCOE, New Delhi",
+  },
+  {
+    name: "Dr. Major Singh",
+    designation: "Professor",
+    organization: "SLIET Longowal",
   },
   {
     name: "Dr. Ashutosh Kumar Bhatt",
@@ -254,6 +253,76 @@ const technicalCommittee = [
     name: "Dr. Deepak Garg",
     designation: "Vice Chancellor",
     organization: "SR university, Telangana, India",
+  },
+  {
+    name: "Dr. Amit Kumar Mishra",
+    designation: "Director",
+    organization: "NIC, New Delhi",
+  },
+  {
+    name: "Mr Sandeep Singh",
+    designation: "Assistant Professor",
+    organization: "SGT University, Gurgaon",
+  },
+  {
+    name: "Dr. Nitin Goyal",
+    designation: "Associate Professor",
+    organization: "Deptt. of CSE, Chitkara University, Rajpura",
+  },
+  {
+    name: "Dr Ranjeeta Kaushik",
+    designation: "Lecturer",
+    organization: "CGC Landran",
+  },
+  {
+    name: "Mr. Suraj Pal Singh",
+    designation: "Assistant Professor",
+    organization: "Chandigarh University",
+  },
+  {
+    name: "Dr surender",
+    designation: "Assistant Professor",
+    organization: "Sangrur",
+  },
+  {
+    name: "Mr. Karandeep Singh",
+    designation: "Assistant Professor",
+    organization: "Punjab University, Patiala",
+  },
+  {
+    name: "Dr. Jaswinder Singh",
+    designation: "Professor",
+    organization: "Punjabi University, Patiala",
+  },
+  {
+    name: "Dr. Gagan Deep Jindal",
+    designation: "Professor",
+    organization: "CGC Landran",
+  },
+  {
+    name: "Dr. Ratan Rana",
+    designation: "Associate Professor",
+    organization: "Jain Deemed to be University, Bangalore",
+  },
+  {
+    name: "Dr. Ashima Shahi",
+    designation: "Associate Professor",
+    organization: "Chandigarh University, Mohali",
+  },
+  {
+    name: "Sapinder Kaur",
+    designation: "Assistant Professor",
+    organization: "Chandigarh University",
+  },
+  {
+    name: "Dr. Rajesh Garg",
+    designation: "Professor",
+    organization: "NIT Hamirpur",
+  },
+  {
+    name: "Mr. Charanjiv Singh Saroa",
+    designation: "Assistant Professor",
+    organization: "Punjab University, Patiala",
   },
   {
     name: "Dr. Savita Gupta",
@@ -270,22 +339,47 @@ const technicalCommittee = [
     designation: "Professor",
     organization: "UCoE, PU, Patiala",
   },
-  // {
-  //   name: "Dr. Umang Garg",
-  //   designation: "Associate Professor",
-  //   organization: "IILM University Gurugram",
-  // },
-  // {
-  //   name: "Member Name",
-  //   designation: "Designation",
-  //   organization: "XYZ University",
-  // },
+  {
+    name: "Dr. Jayati Tripathi",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Ishita Tandon",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Nitu Yadav",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Kumud Goyal",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Ankita Mishra",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
 ];
 
 
 const organizingCommittee = [
   {
+    name: "Dr. Amar Shukla",
+    designation: "Associate Professor",
+    organization: "IILM University Gurugram",
+  },
+  {
     name: "Dr. Sachin Kumar",
+    designation: "Associate Professor",
+    organization: "IILM University Gurugram",
+  },
+  {
+    name: "Dr. Nishu",
     designation: "Associate Professor",
     organization: "IILM University Gurugram",
   },
@@ -299,31 +393,119 @@ const organizingCommittee = [
     designation: "Assistant Professor",
     organization: "IILM University Gurugram",
   },
+{
+    name: "Dr.Tanu Gupta",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Neha Bansal",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Vikas Jayaswal",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Sambhavi Shukla",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
 ];
 
 const reviewCommittee = [
   {
-    name: "Member Name",
-    designation: "Professor",
-    organization: "ABC University",
+    name: "Dr. Sapna Arora",
+    designation: "Associate Professor",
+    organization: "IILM University, Gurugram",
   },
   {
-    name: "Member Name",
+    name: "Dr Megha Rana",
     designation: "Associate Professor",
-    organization: "XYZ University",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Puneet Bawa",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Rupendra PS Hada",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Mansi Verma",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Mr. Naved Ahmad",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Vishwa Prakash Jha",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Shagun Panghal",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
   },
 ];
 
-const advisoryCommittee = [
+const registrationCommittee = [
   {
-    name: "Member Name",
-    designation: "Professor",
-    organization: "ABC University",
+    name: "Dr. Rahul Thakur",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
   },
   {
-    name: "Member Name",
-    designation: "Associate Professor",
-    organization: "XYZ University",
+    name: "Dr. Preeti Mehta",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Sangeeta Rani",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Anshita Shukla",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Satyam Sharma",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+];
+
+const sponsorshipCommittee = [
+  {
+    name: "Dr. Samridhhi Singhal",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Sonam Lata",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Abhishek Toofani",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
+  },
+  {
+    name: "Dr. Prince",
+    designation: "Assistant Professor",
+    organization: "IILM University, Gurugram",
   },
 ];
 
@@ -549,19 +731,31 @@ export default function CommitteePage() {
       />
 
       <CommitteeTable
+        title="Organizing Committee"
+        members={organizingCommittee}
+      />
+
+      <CommitteeTable
+        title="Review Committee"
+        members={reviewCommittee}
+      />
+
+      <CommitteeTable
+        title="Registration Committee"
+        members={registrationCommittee}
+      />
+
+      <CommitteeTable
+        title="Sponsorship Committee"
+        members={sponsorshipCommittee}
+      />
+
+      <CommitteeTable
         title="International and National Technical Program Committee"
         members={technicalCommittee}
       />
 
-      {/* <CommitteeTable
-        title="Review Committee"
-        members={reviewCommittee}
-      /> */}
 
-      <CommitteeTable
-        title="Organizing Committee"
-        members={organizingCommittee}
-      />
 
       {/* <CommitteeTable
         title="Advisory Committee"

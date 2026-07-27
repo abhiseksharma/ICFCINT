@@ -124,7 +124,7 @@ export default function Footer() {
             </p>
 
             <p className="mt-3 text-slate-400">
-              Prof. Dr. Manish Kumar, School of Computer Science & Engineering, IILM University Gurugram, Haryana
+              Prof. (Dr.) Manish Kumar, School of Computer Science & Engineering, IILM University Gurugram, Haryana, India-122003
             </p>
 
             <p className="mt-3 text-slate-400">
