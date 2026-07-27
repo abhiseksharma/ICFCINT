@@ -345,6 +345,11 @@ const technicalCommittee = [
     organization: "IILM University, Gurugram",
   },
   {
+    name: "Dr. Sumit Dalal",
+    designation: "Assistant Professor",
+    organization: "Bennett University",
+  },
+  {
     name: "Ishita Tandon",
     designation: "Assistant Professor",
     organization: "IILM University, Gurugram",
