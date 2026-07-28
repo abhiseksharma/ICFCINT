@@ -374,6 +374,11 @@ const technicalCommittee = [
 
 const organizingCommittee = [
   {
+    name: "Dr. Umang Garg",
+    designation: "Associate Professor",
+    organization: "IILM University Gurugram",
+  },
+  {
     name: "Dr. Amar Shukla",
     designation: "Associate Professor",
     organization: "IILM University Gurugram",
@@ -464,6 +469,11 @@ const reviewCommittee = [
 ];
 
 const registrationCommittee = [
+  {
+    name: "Dr. Aarti Chugh",
+    designation: "Associate Professor",
+    organization: "IILM University, Gurugram",
+  },  
   {
     name: "Dr. Rahul Thakur",
     designation: "Assistant Professor",
@@ -741,7 +751,7 @@ export default function CommitteePage() {
       />
 
       <CommitteeTable
-        title="Review Committee"
+        title="Internal Manuscript Quality Assurance and Review Committee"
         members={reviewCommittee}
       />
 
