@@ -340,6 +340,31 @@ const technicalCommittee = [
     organization: "UCoE, PU, Patiala",
   },
   {
+    name: "Rachika Gupta",
+    designation: "Delivery Manager",
+    organization: "Accenture",
+  },
+  {
+    name: "Anshul Rohilla",
+    designation: "Senior AI Solution Architect",
+    organization: "Ericsson",
+  },
+  {
+    name: "Sajal Singhal",
+    designation: "President and Global Head of Labs COE",
+    organization: "GlobalLogic (Hitachi Group)",
+  },
+  {
+    name: "Ashish Pastor",
+    designation: "Director Engineering",
+    organization: "GlobalLogic (Hitachi Group)",
+  },
+  {
+    name: "Ravi Asnani",
+    designation: "Managing Director",
+    organization: "Happy FunCorp",
+  },
+  {
     name: "Dr. Jayati Tripathi",
     designation: "Assistant Professor",
     organization: "IILM University, Gurugram",
