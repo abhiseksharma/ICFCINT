@@ -49,12 +49,12 @@ import Container from "@/components/ui/container";
       organization: "Aurel Vlaicu University of Arad / Academy of Romanian Scientists, ROMANIA",
       image: "/images/profile-placeholder.jpg",
     },
-    {
-      name: "Dr. Aydin Azizi",
-      designation: "Senior Lecturer",
-      organization: "Oxford Brookes University, United Kindom",
-      image: "/images/profile-placeholder.jpg",
-    },
+    // {
+    //   name: "Dr. Aydin Azizi",
+    //   designation: "Senior Lecturer",
+    //   organization: "Oxford Brookes University, United Kindom",
+    //   image: "/images/profile-placeholder.jpg",
+    // },
   ];
 
 
@@ -752,7 +752,7 @@ export default function CommitteePage() {
       /> */}
 
       <CommitteeTable
-        title="General Chairs"
+        title="General Chair"
         members={generalChairs}
       />
 

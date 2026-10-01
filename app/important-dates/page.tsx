@@ -18,7 +18,7 @@ import PageHero from "@/components/sections/page-hero";
 const timeline = [
   {
     title: "Opening Submission Date",
-    date: "21 Dec 2026",
+    date: "01 Dec 2026",
     icon: CalendarClock,
     color: "bg-blue-100 text-blue-700",
     description: "Paper submission portal opens.",
