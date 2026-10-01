@@ -50,7 +50,7 @@ export default function TrackCard({
   id,
   icon,
   title,
-  chair,
+  // chair,
   description,
   topics,
 }: TrackCardProps) {

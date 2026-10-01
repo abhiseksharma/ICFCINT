@@ -65,33 +65,39 @@ import Container from "@/components/ui/container";
       organization: "IILM University Gurugram",
       image: "/images/profile-placeholder.jpg",
     },
-    // {
-    //   name: "Program Chair",
-    //   designation: "Designation",
-    //   organization: "Organization",
-    //   image: "/images/profile-placeholder.jpg",
-    // },
-    // {
-    //   name: "Program Chair",
-    //   designation: "Designation",
-    //   organization: "Organization",
-    //   image: "/images/profile-placeholder.jpg",
-    // },
-  ];
-
-
-  const publicationChairs = [
     {
       name: "Dr. Manish Kumar",
       designation: "Professor, School of Computer Science and Engineering",
       organization: "IILM University Gurugram",
       image: "/images/profile-placeholder.jpg",
     },
+    // {
+    //   name: "Program Chair",
+    //   designation: "Designation",
+    //   organization: "Organization",
+    //   image: "/images/profile-placeholder.jpg",
+    // },
+    // {
+    //   name: "Program Chair",
+    //   designation: "Designation",
+    //   organization: "Organization",
+    //   image: "/images/profile-placeholder.jpg",
+    // },
   ];
+
+
+  // const publicationChairs = [
+  //   {
+  //     name: "Dr. Manish Kumar",
+  //     designation: "Professor, School of Computer Science and Engineering",
+  //     organization: "IILM University Gurugram",
+  //     image: "/images/profile-placeholder.jpg",
+  //   },
+  // ];
 
     const financeChairs = [
     {
-      name: "Dr. Law Kumar",
+      name: "Dr. Anurag Jain",
       designation: "Professor, School of Computer Science and Engineering",
       organization: "IILM University Gurugram",
       image: "/images/profile-placeholder.jpg",
@@ -374,26 +380,26 @@ const technicalCommittee = [
     designation: "Assistant Professor",
     organization: "Bennett University",
   },
-  {
-    name: "Ishita Tandon",
-    designation: "Assistant Professor",
-    organization: "IILM University, Gurugram",
-  },
-  {
-    name: "Nitu Yadav",
-    designation: "Assistant Professor",
-    organization: "IILM University, Gurugram",
-  },
-  {
-    name: "Dr. Kumud Goyal",
-    designation: "Assistant Professor",
-    organization: "IILM University, Gurugram",
-  },
-  {
-    name: "Dr. Ankita Mishra",
-    designation: "Assistant Professor",
-    organization: "IILM University, Gurugram",
-  },
+  // {
+  //   name: "Ishita Tandon",
+  //   designation: "Assistant Professor",
+  //   organization: "IILM University, Gurugram",
+  // },
+  // {
+  //   name: "Nitu Yadav",
+  //   designation: "Assistant Professor",
+  //   organization: "IILM University, Gurugram",
+  // },
+  // {
+  //   name: "Dr. Kumud Goyal",
+  //   designation: "Assistant Professor",
+  //   organization: "IILM University, Gurugram",
+  // },
+  // {
+  //   name: "Dr. Ankita Mishra",
+  //   designation: "Assistant Professor",
+  //   organization: "IILM University, Gurugram",
+  // },
 ];
 
 
@@ -423,11 +429,11 @@ const organizingCommittee = [
     designation: "Assistant Professor",
     organization: "IILM University Gurugram",
   },
-  {
-    name: "Dr. Navneet Redhu",
-    designation: "Assistant Professor",
-    organization: "IILM University Gurugram",
-  },
+  // {
+  //   name: "Dr. Navneet Redhu",
+  //   designation: "Assistant Professor",
+  //   organization: "IILM University Gurugram",
+  // },
 {
     name: "Dr.Tanu Gupta",
     designation: "Assistant Professor",
@@ -461,11 +467,11 @@ const reviewCommittee = [
     designation: "Associate Professor",
     organization: "IILM University, Gurugram",
   },
-  {
-    name: "Dr. Puneet Bawa",
-    designation: "Assistant Professor",
-    organization: "IILM University, Gurugram",
-  },
+  // {
+  //   name: "Dr. Puneet Bawa",
+  //   designation: "Assistant Professor",
+  //   organization: "IILM University, Gurugram",
+  // },
   {
     name: "Dr. Rupendra PS Hada",
     designation: "Assistant Professor",
@@ -519,11 +525,11 @@ const registrationCommittee = [
     designation: "Assistant Professor",
     organization: "IILM University, Gurugram",
   },
-  {
-    name: "Satyam Sharma",
-    designation: "Assistant Professor",
-    organization: "IILM University, Gurugram",
-  },
+  // {
+  //   name: "Satyam Sharma",
+  //   designation: "Assistant Professor",
+  //   organization: "IILM University, Gurugram",
+  // },
 ];
 
 const sponsorshipCommittee = [
@@ -755,10 +761,10 @@ export default function CommitteePage() {
         members={programChairs}
       />
 
-      <CommitteeTable
+      {/* <CommitteeTable
         title="Publication Chair"
         members={publicationChairs}
-      />
+      /> */}
 
       <CommitteeTable
         title="Finance Chair"
@@ -768,6 +774,11 @@ export default function CommitteePage() {
       <CommitteeTable
         title="Website Chair"
         members={websiteChairs}
+      />
+
+      <CommitteeTable
+        title="International and National Technical Program Committee"
+        members={technicalCommittee}
       />
 
       <CommitteeTable
@@ -788,11 +799,6 @@ export default function CommitteePage() {
       <CommitteeTable
         title="Sponsorship Committee"
         members={sponsorshipCommittee}
-      />
-
-      <CommitteeTable
-        title="International and National Technical Program Committee"
-        members={technicalCommittee}
       />
 
 
