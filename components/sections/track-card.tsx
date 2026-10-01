@@ -94,7 +94,7 @@ export default function TrackCard({
 
             <p className="mt-3 text-sm text-slate-500">
 
-              <strong>Track Chair:</strong> {chair}
+              {/* <strong>Track Chair:</strong> {chair} */}
 
             </p>
 
