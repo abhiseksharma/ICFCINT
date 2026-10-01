@@ -24,7 +24,7 @@ export type TrackCardProps = {
   id: number;
   icon: TrackIcon;
   title: string;
-  chair: string;
+  // chair: string;
   description: string;
   topics: string[];
 };

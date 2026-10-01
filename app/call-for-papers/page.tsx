@@ -44,8 +44,8 @@ const tracks: TrackCardProps[] = [
     title:
       "Artificial Intelligence, Machine Learning & Data Science",
 
-    chair:
-      "Dr. Amar Shukla, IILM University Gurugram, Haryana, Dr. Gagandeep, Professor, CEC- CGC Landran, Mohali",
+    // chair:
+    //   "Dr. Amar Shukla, IILM University Gurugram, Haryana, Dr. Gagandeep, Professor, CEC- CGC Landran, Mohali",
 
     // society:
     //   "IEEE Computer Society / Computational Intelligence Society",
@@ -71,8 +71,8 @@ const tracks: TrackCardProps[] = [
     title:
       "Internet of Things (IoT), Smart Systems & Embedded Technologies",
 
-    chair:
-      "Dr. Law Kumar Singh, IILM University Gurugram, Haryana",
+    // chair:
+    //   "Dr. Law Kumar Singh, IILM University Gurugram, Haryana",
 
     // society:
     //   "IEEE Internet of Things Society",
@@ -96,8 +96,8 @@ const tracks: TrackCardProps[] = [
   title:
     "Cloud Computing, Distributed Systems & Next-Generation Networks",
 
-  chair:
-    "Dr. Shubham Mahajan, Amity University, Haryana",
+  // chair:
+  //   "Dr. Shubham Mahajan, Amity University, Haryana",
 
   description:
     "This track addresses scalable computing infrastructures and future communication technologies.",
@@ -118,8 +118,8 @@ const tracks: TrackCardProps[] = [
   title:
     "Cybersecurity, Blockchain & Digital Trust",
 
-  chair:
-    "Dr. Umang Garg, IILM University Gurugram, Haryana",
+  // chair:
+  //   "Dr. Umang Garg, IILM University Gurugram, Haryana",
 
   description:
     "This track highlights secure computing, privacy and decentralized technologies.",
@@ -138,10 +138,10 @@ const tracks: TrackCardProps[] = [
   icon: "cpu",
 
   title:
-    "Emerging Technologies, Intelligent Systems & Interdisciplinary Applications",
+    "Intelligent Systems, Quantum Computing & Interdisciplinary Applications",
 
-  chair:
-    "Dr. Jorge, IPVC, Portugal",
+  // chair:
+  //   "Dr. Jorge, IPVC, Portugal",
 
   description:
     "This track focuses on next-generation innovations and interdisciplinary applications across intelligent systems and sustainable technologies.",
