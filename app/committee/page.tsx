@@ -60,7 +60,7 @@ import Container from "@/components/ui/container";
 
   const programChairs = [
     {
-      name: "Dr. Shamik Tiwari",
+      name: "Dr. Bhawna Mallick",
       designation: "Professor and Dean, School of Computer Science and Engineering",
       organization: "IILM University Gurugram",
       image: "/images/profile-placeholder.jpg",
